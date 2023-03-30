@@ -31,5 +31,8 @@ def calculate_loan_to_value_ratio(loan_amount, home_value):
     Returns:
         The loan-to-value ratio.
     """
+    if home_value < 1:
+        home_value = 1
+        
     loan_to_value_ratio = int(loan_amount) / int(home_value)
     return loan_to_value_ratio
