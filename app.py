@@ -111,6 +111,32 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
+#
+def save_csv(list_a, path):
+    """
+    Saves a list to csv file. If path is not a csv.file, function will create one when
+    it writes.
+
+    Args:
+    list_a: A list of any objects
+    path: A path for the csv file which will have list written on it
+
+    Returns:
+    Doesn't return anything, just let user knows that csv file has been saved.
+    
+    
+    
+    """
+    with open(path, 'w', newline = '') as csvfile:
+        csvwriter = csv.writer(csvfile)
+
+        for a in list_a:
+            csvwriter.writerow(a)
+
+        print("Finished saving to csv file.")
+
+
+
 
 def run():
     """The main function for running the script."""
