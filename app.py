@@ -116,7 +116,7 @@ def save_qualifying_loans(qualifying_loans):
     if len(qualifying_loans) != 0:
         save = questionary.text("Would you like to save the qualifying loans? Y/N: ").ask()
 
-        if (save != 'Y') or (save != 'N'):
+        if (save != 'Y') and (save != 'N'):
             print(f"I'm sorry, {save} is not a valid response. Please answer 'Y' or 'N'.")
             save_qualifying_loans(qualifying_loans)
         
