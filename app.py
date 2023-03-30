@@ -116,28 +116,21 @@ def save_qualifying_loans(qualifying_loans):
 
     #First code checks to see if there are any qualifying loans.
     if len(qualifying_loans) != 0:
+        if  (questionary.confirm("Do you want to save your qualifying loans?").ask()):
 
-        #Asks user if they want to save list of loans.
-        save = questionary.text("Would you like to save the qualifying loans? Y/N: ").ask()
-
-        if (save != 'Y') and (save != 'N'):
             #If users puts something other than Y or N will let user know and call program again.
-            print(f"I'm sorry, {save} is not a valid response. Please answer 'Y' or 'N'.")
-            save_qualifying_loans(qualifying_loans)
-        
-        if save == 'Y':
             #If user selects Y then will ask user to put file path for csv file.
             csvpath = questionary.text("Please enter file path you wish to save the csv file to. Add name of csv file to end of path.").ask()
-            save_csv(qualifying_loans, csvpath)
+            save_csv(qualifying_loans, csvpath)         
             print("Thank you for using our service!")
 
 
 
         else:
-            #User has choosen not to save loans. Will end program.
+        #User has choosen not to save loans. Will end program.
             print("Understood, will not save the qualifying loans. Thank you for using our service!")
 
-    #If there wasn't any qualifying loans found will print following message to user.
+    # #If there wasn't any qualifying loans found will print following message to user.
     else:
         print("I apologize we were not able to find any qualifying loans. Thank you for using our service and have a good day.")
 
