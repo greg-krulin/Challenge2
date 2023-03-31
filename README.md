@@ -25,7 +25,7 @@ To install the loan qualifier application, follow these steps:
 Clone the repository to your local machine:
 ![](/Example_screenshots/gitclone.png)
 
-Navigate into the project directory:
+Navigate into the project directory
 
 Install the required dependencies:
 
