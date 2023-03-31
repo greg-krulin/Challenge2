@@ -1,6 +1,8 @@
 # Project Title
 
-This application is a challenge from Bootcamp to create a loan qualifier application. The application goes through a list of banks' qualifying loans (which user provides) and then asks the user finacial questions. Based on information user provides, the program will determine which loans the user qualifies for. It then asks if the user wishes to save the list, and where to save it too.
+This application is a challenge from Bootcamp to create a loan qualifier application. 
+
+The application goes through a list of banks' qualifying loans (which user provides) and then asks the user finacial questions. Based on information user provides, the program will determine which loans the user qualifies for. It then asks if the user wishes to save the list, and where to save it too.
 
 It is recommended the user saves the list as a CSV file.
 
@@ -10,9 +12,12 @@ It is recommended the user saves the list as a CSV file.
 
 This project was created with: 
 
-*Python 3.10.10
-*questionary 1.10.0
-*fire 0.5.0
+Python 3.10.10
+
+questionary 1.10.0
+
+fire 0.5.0
+
 
 ---
 
