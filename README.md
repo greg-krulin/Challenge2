@@ -6,17 +6,16 @@ Just after the title, introduce your project by describing attractively what the
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This project was created with: 
 
-This project created with: 
-Python 3.10.10
-questionary 1.10.0
-fire 0.5.0
+*Python 3.10.10
+*questionary 1.10.0
+*fire 0.5.0
+
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
 
 ---
 
@@ -28,10 +27,11 @@ Clone the repository to your local machine:
 Navigate into the project directory
 
 Install the required dependencies:
+![Screenshot of using pip install for questionary and fire](Example_screenshots/pipinstall.png)
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+
 
 ---
 
