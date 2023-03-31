@@ -22,11 +22,13 @@ This project was created with:
 To install the loan qualifier application, follow these steps:
 
 Clone the repository to your local machine:
+
 ![Screenshot of using git clone on gitbash](Example_screenshots/gitclone.png)
 
 Navigate into the project directory
 
 Install the required dependencies:
+
 ![Screenshot of using pip install for questionary and fire](Example_screenshots/pipinstall.png)
 
 ## Usage
@@ -39,11 +41,26 @@ Install the required dependencies:
 1) Run the loan qualifier application in the terminal:
 
 
-2) Input the financial data as prompted by the application.
+![Screenshot of using python on app.py in terminal](Example_screenshots/app_py.png)
 
-3) If there are any qualifying loans, the application will output a list of the qualifying loans.
+2) Input the financial data as prompted by the application:
 
-4) If you want to save the qualifying loans to a CSV file, the application will prompt you to provide a file path.
+![Screenshot of using python on app.py in terminal](Example_screenshots/fin_data.png)
+
+3)If there are any loans, application will ask if you wish to save the list:
+
+![Screenshot of using python on app.py in terminal](Example_screenshots/question.png)
+
+4) If you want to save the qualifying loans to a CSV file, the application will prompt you to provide a file path:
+
+![Screenshot of using python on app.py in terminal](Example_screenshots/csv.png)
+
+**Note**
+If there are not any loans available application will let user know and end.
+
+There are also some issues with code right now:
+User can place negative credit scores and absurdly high ones
+User can save data as a non-csv file type, so some techincal know how is required from user.
 
 ## Contributors
 
