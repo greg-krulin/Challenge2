@@ -1,0 +1,50 @@
+   35  git commit README.md  -m "Added screenshots for cloning project"
+   36  git push
+   37  ls
+   38  git add Example_screenshots
+   39  git commit Example_screens -m "Added screenshots folder for README.md"
+   40  git status
+   41  git add Example_screenshots/*
+   42  git commit Example_screens -m "Added screenshots folder for README.md"
+   43  git commit Example_screens/ -m "Added screenshots folder for README.md"
+   44  git commit Example_screens "Added screenshots folder for README.md"
+   45  git commit Example_screens -m"Added screenshots folder for README.md"
+   46  git commit Example_screens/* -m"Added screenshots folder for README.md"
+   47  git commit
+   48  git commit -m "added screenshot folder"
+   49  git push
+   50  ls
+   51  git add Example_screenshots/pipinstall.png
+   52  git status
+   53  git commit -m "Added screenshot of pip install to readme and screenshot folder"
+   54  git push
+   55  git add README.md
+   56  git commit -m "Added screenshot of pip install to readme and screenshot folder"
+   57  git push
+   58  python app.py
+   59  python app.py
+   60  python app.py
+   61  python app.py
+   62  python app.py
+   63  git status
+   64  git add README.md
+   65  cd Example_screenshots
+   66  ;s
+   67  ls
+   68  git add app_py.png
+   69  git add csv.png
+   70  git add fin_data.png
+   71  git question.png
+   72* git add .png
+   73  git status
+   74  cd ..
+   75  git commit -m "Added screenshots to folder and readme for Usage section of readme."
+   76  git push
+   77  git status
+   78  git add README.md
+   79  git commit -m "Finished Usage, Liscense, Contributors, and Intro on readme. Cleaned up some spots as well."
+   80  git push
+   81  git add README.md
+   82  git commit -m "Fixed formating of Installation guide."
+   83  git push
+   84  history 50 > terminal_history.txt
